@@ -1,23 +1,33 @@
 <!DOCTYPE html>
-<HTML>
-
+<html lang="en">
 <head>
-     <title>Home</title>
-     <link rel="stylesheet" type="text/css" href="style.css">
-     <script src="script.js"></Script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Berghs Content Engineers</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Hello world</h1>
+    <!-- Background -->
+    <div class="background"></div>
+    <audio id="background-audio" src="./static/background.mp3" muted></audio>
 
 
-    <img class="my-img" src="https://cdn.midjourney.com/31fac8ec-72e6-4fa0-89a8-8ed005edbc5e/0_2.png">
-    
-<button onclick="clickme()"class="my-button">
-    Click me! !
-</button>
+    <!-- Moving Text -->
+    <div id="looping-text">Creativity with Content Engineers</div>
 
+    <!-- Buttons -->
+    <div class="buttons-container">
+        <button id="play-audio-btn">Play Audio</button>
+        <button id="creator-btn">Creator Webpage</button>
+        <button id="berghs-btn">Berghs School</button>
+    </div>
 
-<body>
+    <!-- Sparkle Container -->
+    <div id="sparkle-container"></div>
 
+    <script src="./static/script.js"></script>
+</body>
 </html>
